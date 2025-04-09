@@ -1,9 +1,3 @@
-# Required for both CLI and GUI versions
-zipfile>=3.0.0  # Built-in, but specified for clarity
-shutil>=3.0.0   # Built-in, but specified for clarity
-
-# Required for GUI version only
-tkinter>=8.6    # Built-in with Python, but specified for clarity
-
 # Core dependencies
 pillow>=9.0.0  # For image handling
+tkinter>=8.6   # For GUI (built-in with Python) 
