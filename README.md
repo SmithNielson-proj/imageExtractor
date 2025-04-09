@@ -6,7 +6,7 @@ Extract images and PDFs from zip files. Available in both command-line and GUI v
 
 1. Clone and setup:
 ```bash
-git clone https://github.com/yourusername/imageExtractor.git
+git clone https://github.com/SmithNielson-proj/imageExtractor.git
 cd imageExtractor
 python -m venv env
 .\env\Scripts\activate  # Windows
