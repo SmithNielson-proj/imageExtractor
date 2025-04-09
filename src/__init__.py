@@ -51,6 +51,7 @@ def main():
                     # Handle duplicate filenames
                     while os.path.exists(output_path):
                         name, ext = os.path.splitext(filename)
+                        # file counter adds _1, _2, etc to the end of duplicate files 
                         output_path = os.path.join(output_folder, f"{name}_{file_counter}{ext}")
                         file_counter += 1
                     
